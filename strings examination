@@ -1,0 +1,25 @@
+player1 = 'Ruud Gullit'
+player2 = 'Marco van Basten'
+goal_0 =  32 
+goal_1 =  54
+
+scorers = player1 + ' ' + str(goal_0) + ", " +  player2+ ' ' + str(goal_1)
+
+print (scorers)
+
+report = f'{player1} scored in the {goal_0}nd minute\n{player2} scored in the {goal_1}th minute'
+
+print (report)
+
+player = 'Adri Van Tiggelen'
+first_name = player  [ :4 ]
+last_name_len = len(player [ 5:] )
+name_short = f'{player [:1]}. {player [5:]}'
+chant =  ( first_name+"! ") * 3  + 'Adri!'
+good_chant= chant [22] != ' '
+
+print (first_name)
+print (last_name_len)
+print (name_short)
+print (chant)
+print (good_chant)
